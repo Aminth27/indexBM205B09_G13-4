@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:sans-serif;
+    overflow-x: hidden;
+}
+
+.page1, .page2, .page3 {
+    display: flex;
+    flex-direction: column; 
+    position: absolute;
+    background-color: black;
+}
+
+.page2 {
+    width: 110%
+}
+.page3 {
+    width: 100%;
+}
+
+/*Page 2 Content*/
+.contain {
+    height: 1944px;
+    width: 90%;
+    background: url(/pics/Definition.png) no-repeat;
+    background-size: cover;
+}
+a.btn3 {
+    color:#ffffff;
+    text-decoration: none;
+    margin-left: -5px;
+    border: 1px solid white;
+    padding: 10px 30px;
+    text-align: center;
+    transition: background-color .75s;
+}
+a.btn3:hover { background-color: rgba(255, 255, 255, 0.3); }
+
+/*Page 3 Content*/
+.contentt {
+    height: 2860px;
+    width: 100%;
+    background: url(/pics/CompleteStand.png) no-repeat;
+    background-size: cover;
+}
+a.btn4 {
+    color:#ffffff;
+    text-decoration: none;
+    margin-left: -5px;
+    border: 1px solid white;
+    padding: 10px 30px;
+    text-align: center;
+    transition: background-color .75s;
+}
+a.btn4:hover { background-color: rgba(255, 255, 255, 0.3); }
+
+/*First Catalog*/
+.UpperText { 
+    background: no-repeat; 
+    background-image: url(/pics/text.png);
+    height: 500px; width: 600px; 
+    margin: 40px 0 15px 1170px; 
+    padding-bottom: 410px;
+}
+
+.hre {
+    margin: 16px 0 0 10px;
+}
+
+/*Learn More Button*/
+a.btn {
+    color:#ffffff;
+    text-decoration: none;
+    margin-left: 1430px;
+    border: 1px solid white;
+    padding: 10px 30px;
+    transition: background-color .75s;
+}
+a.btn:hover { background-color: rgba(255, 255, 255, 0.3); }
+
+/*Header*/
+
+header { 
+    height: 800px; 
+    width: 100%;
+    background: url(/pics/UpperPic.png) no-repeat;
+}
+
+h1 {
+    color: white; 
+    font: "Montserrat"; 
+    text-align: center;
+    margin-top: 230px;
+    font-size: 56px
+}
+h2 {
+    color: white; 
+    font: "Montserrat"; 
+    text-align: center;
+    margin-top: 30px;
+    font-size: 52px;
+}
+
+/*Cards*/
+
+section { padding: 0 30px;}
+section::after { content:''; display: block; clear: both; }
+
+section.part1 {padding: 0; 
+}
+section.part1 aside { width: 18.7%;
+        float: left; 
+        margin-left: 5px; margin-bottom: 20px; margin-top: 95px;
+}
+
+section.part1 .content { background: no-repeat; background-size: 100%;
+    padding-top: 85px; transition: 0.75s 
+}
+section.part1 .content:hover { transform: scale(1.04);
+}
+
+section.part1 aside .content.Acard { background-image: url(/pics/Acard.png); height: 935px;}
+
+section.part1 aside .content.Bcard { background-image: url(/pics/Bcard.png); height: 935px;}
+
+section.part1 aside .content.Ccard { background-image: url(/pics/Ccard.png); height: 935px;}
+
+section.part1 aside .content.Dcard { background-image: url(/pics/Dcard.png); height: 935px;}
+
+section.part1 aside .content.Ecard { background-image: url(/pics/Ecard.png); height: 935px;}
+
+/*Tiles*/
+
+section.part2 {padding: 0; }
+section.part2 aside { width: 46%; 
+        float: left;
+        margin-left: 20px; margin-bottom: 20px; margin-top: 25px;
+}
+
+section.part2 .content { background: no-repeat; background-size: 100%; 
+    padding-top: 85px; transition: 0.5s
+}
+section.part2 .content:hover { transform: scale(1.02);}
+
+section.part2 aside .content.PreA { background-image: url(/pics/PreA.png); height: 455px;
+}
+section.part2 aside .content.PreA:hover { background-image: url(/pics/PostA.png);}
+
+section.part2 aside .content.PreC { background-image: url(/pics/PreC.png); height: 455px;
+}
+section.part2 aside .content.PreC:hover { background-image: url(/pics/PostC.png);}
+
+
+section.part3 {padding: 0; }
+section.part3 aside { width: 46%;
+        float: left;  margin-bottom: 20px;
+}
+
+section.part3 .content { background: no-repeat left; background-size: 100%; 
+    padding-top: 85px; transition: 0.5s;
+}
+section.part3 .content:hover { transform: scale(1.02);}
+
+
+section.part3 aside .content.PreB {
+    background-image: url(/pics/PreB.png); 
+    margin-left: 20px; 
+    height: 455px; width: 100%;
+    transition: 0.75s;
+}
+section.part3 aside .content.PreB:hover { background-image: url(/pics/PostB.png);}
+
+
+section.part3 aside .content.PreD { background-image: url(/pics/PreD.png);
+    margin-left: 35px;
+    height: 455px;  width: 100%;
+}
+section.part3 aside .content.PreD:hover { background-image: url(/pics/PostD.png);}
+
+/*Bottom Catalog*/
+.Bottom1 {
+    height: 500px; 
+    width: 100%;
+    background: url(/pics/Stand.png) no-repeat;
+    margin-top: 0px;
+}
+.filler {
+    margin-bottom: 290px;
+}
+.btn2 {
+    color:#ffffff;
+    text-decoration: none;
+    margin-left: 1225px;
+    border: 1px solid white;
+    padding: 10px 30px;
+    margin-top: 50px;
+    transition: background-color .75s;
+}
+a.btn2:hover { background-color: rgba(255, 255, 255, 0.3); }
+
+/*Animation*/
+
+.slide-in{
+    animation: slide-in 1.25s ease forwards;
+}
+
+@keyframes slide-in {
+    from{
+        transform: translateX(100%);
+        visibility: visible;
+    }
+    to {
+        transform: translateX(0%)
+    }
